@@ -18,17 +18,23 @@ This project employs the following methodologies:
    - MEG and EEG datasets are preprocessed to filter noise and categorize brainwave signals.
    - Signals are grouped based on frequencies and mental activities (e.g., auditory vs. visual tasks).
 
+   <img width="541" alt="image" src="https://github.com/user-attachments/assets/a30d6971-a585-41bf-8d2b-451934993c49" />
+
 2. **2D and 3D Visualization**:
    - **Signal Traces**: Time-series plots representing neural activity.
    - **Scalp Topographies**: Heatmaps visualizing brainwave activity over specific scalp areas.
    - **Arrow Maps**: Visuals displaying magnetic field magnitude and direction.
    - **3D Field Maps**: Interactive 3D models showing neural activity distribution.
+   
+   <img width="803" alt="image" src="https://github.com/user-attachments/assets/fa230b59-fefc-46c9-9969-d751dcbdde18" />
 
-3. **Evaluation**:
+   <img width="1406" alt="image" src="https://github.com/user-attachments/assets/cbd8b3fb-6f45-4bab-a49d-a53cc127c0b9" />
+
+4. **Evaluation**:
    - A Random Forest Classifier is trained on raw evoked data.
    - The classifier is validated using Leave-One-Out Cross-Validation (LOOCV) to measure accuracy between auditory and visual conditions.
 
-4. **Software Environment**:
+5. **Software Environment**:
    - All visualizations and analyses are powered by the `MNE-Python` library, a robust framework for analyzing EEG and MEG data.
 
 ---
